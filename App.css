@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+body {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.d-flex div {
+  padding-top: 0px;
+  padding-right: 100px;
+  display: inline-flex;
+  text-align: center;
+}
+.prr {
+  padding-left: 0px;
+  margin-left: -10px;
+  margin-right: -90px;
+}
+.prr select {
+  margin-left: 10px;
+  width: 150px;
+}
+
+.frr {
+  margin-left: 10px;
+  margin-right: -35px;
+}
+
+.frr input {
+  margin-left: 10px;
+}
+
+.trr {
+  margin-left: 10px;
+  margin-right: -35px;
+}
+
+.trr input {
+  margin-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+body {
+  /* background: #04355f !important; */
+  background: #167bff !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.box {
+  margin: auto;
+  background: #ffffff !important;
+  box-shadow: 0px 14px 10px rgba(34, 35, 58, 0.4);
+  margin-left: 35px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.3s;
+  width: 900px;
+  height: 200px;
+}
+
+.btn {
+  background-color: #167bff;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 10px;
+  border-color: #ffffff;
+}
